@@ -38,7 +38,7 @@
             "score": 1110,
             "text": "$0\\ le A,\\ B \\le 10^{1000},\\ 0 \\le C \\le 10^{2000}$",
             "validators": [
-                "validator.cpp 100000 100000 7"
+                "validator.cpp 1000 2000 7"
             ]
         },
         "full": {

@@ -4,17 +4,40 @@
 manual example-1.in
 
 @subtask task1
+gen 9 18 7 1
+gen 9 18 7 2
+gen 9 18 7 3
+gen 9 18 7 4
+gen 9 18 7 5
 
 @subtask task2
 manual 1-yes.in
 manual 1-no.in
+gen 18 36 7 1
+gen 98 36 7 2
+gen 98 36 7 3
+gen 98 36 7 4
+gen 98 36 7 5
 
 @subtask task3
+gen 100000 100000 6 1
+gen 100000 100000 6 2
+gen 100000 100000 6 3
+gen 100000 100000 6 4
+gen 100000 100000 6 5
 
 @subtask task4
+gen 1000 2000 7 1
+gen 1000 2000 7 2
+gen 1000 2000 7 3
+gen 1000 2000 7 4
+gen 1000 2000 7 5
 
 @subtask full
 manual 7-yes.in
 manual 7-no.in
-# gen 500000 1000000 4 fvcz # only have
-# gen 500000 1000000 7 fggv
+gen 500000 1000000 7 1
+gen 500000 1000000 7 2
+gen 500000 1000000 7 3
+gen 500000 1000000 7 4
+gen 500000 1000000 7 5
