@@ -1,6 +1,9 @@
 {
-    "ntt.cpp": {
+    "ntt2.cpp": {
         "verdict": "model_solution"
+    },
+    "ntt.cpp": {
+        "verdict": "correct"
     },
     "random_compile_time.cpp": {
         "verdict": "correct"
