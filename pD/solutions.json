@@ -35,5 +35,11 @@
         "except": {
             "full": "time_limit"
         }
+    },
+    "karatsuba.cpp": {
+        "verdict": "correct",
+        "except": {
+            "full": "time_limit"
+        }
     }
 }
