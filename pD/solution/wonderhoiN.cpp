@@ -109,11 +109,35 @@ string bigminus(string a, string b){
 	return a;
 }
 
+string to_string(u128 num){
+	string s = "";
+	u128 t;
+	function<u128(u128, u64)> fsp = [](u128 a, u64 b){
+		u128 tmp = 1ull;
+		for(;b>0;b>>=1){
+			if(b&1){
+				tmp*=a;
+			}
+			a*=a;
+		}
+		return tmp;
+    };
+	for(int i=37;i >=0;i--){
+		t = fsp(10,i);
+		s += num/t + '0';
+		num %= t;
+	}
+	reverse(s.begin(),s.end());
+	while(s.back() == '0') s.pop_back();
+	reverse(s.begin(),s.end());
+	return s;
+}
+
 int main(){
 	ena;
 	i64 prime;
-	string a,b,op,c;
-	cin>>a>>op>>b>>c;
+	string a,b,op,c,t;
+	cin>>a>>op>>b>>t>>c;
 	if(op == "*"){
 		for(int i=0;i<3;i++){
 			prime = prime64();
