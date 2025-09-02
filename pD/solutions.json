@@ -1,5 +1,29 @@
 {
-	"correct.cpp": {
-		"verdict": "model_solution"
-	}
+    "ntt.cpp": {
+        "verdict": "model_solution"
+    },
+    "random_compile_time.cpp": {
+        "verdict": "correct"
+    },
+    "py.py": {
+        "verdict": "correct",
+        "except": {
+            "full": "time_limit"
+        }
+    },
+    "task1.cpp": {
+        "verdict": "wrong_answer",
+        "except": {
+            "sample": "correct",
+            "task1": "correct"
+        }
+    },
+    "task2.cpp": {
+        "verdict": "wrong_answer",
+        "except": {
+            "sample": "correct",
+            "task1": "correct",
+            "task2": "correct"
+        }
+    }
 }

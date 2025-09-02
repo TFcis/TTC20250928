@@ -3,6 +3,18 @@
 @subtask samples
 manual example-1.in
 
+@subtask task1
+
+@subtask task2
+manual 1-yes.in
+manual 1-no.in
+
+@subtask task3
+
+@subtask task4
+
 @subtask full
-gen	20
-gen	30
+manual 7-yes.in
+manual 7-no.in
+gen 500000 1000000 4 fvcz # only have
+gen 500000 1000000 7 fggv
