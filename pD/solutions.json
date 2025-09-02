@@ -15,10 +15,11 @@
         }
     },
     "task1.cpp": {
-        "verdict": "incorrect",
+        "verdict": "runtime_error",
         "except": {
             "samples": "correct",
-            "task1": "correct"
+            "task1": "correct",
+            "task2": "incorrect"
         }
     },
     "task2.cpp": {
