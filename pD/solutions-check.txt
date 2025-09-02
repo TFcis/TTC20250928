@@ -1,0 +1,80 @@
+ntt.cpp
+solution            compile[WARN]
+0-01                sol[OK]    0.009     check[OK]        1  [Correct]               
+2-01                sol[OK]    0.009     check[OK]        1  [Correct]               
+2-02                sol[OK]    0.008     check[OK]        1  [Correct]               
+5-01                sol[OK]    0.049     check[OK]        1  [Correct]               
+5-02                sol[OK]    0.052     check[OK]        1  [Correct]               
+samples             [1/1 tests]    [Correct]             [0/0 pts]      [match with expected]             0-01
+task2               [2/2 tests]    [Correct]             [1110/1110 pts]    [match with expected]             2-01
+full                [2/2 tests]    [Correct]             [1110/1110 pts]    [match with expected]             5-01
+
+Subtask summary
+2220/2220 pts
+
+Finished.
+
+random_compile_time.cpp
+solution            compile[WARN]
+0-01                sol[OK]    0.023     check[OK]        1  [Correct]               
+2-01                sol[OK]    0.009     check[OK]        1  [Correct]               
+2-02                sol[OK]    0.009     check[OK]        1  [Correct]               
+5-01                sol[OK]    0.013     check[OK]        1  [Correct]               
+5-02                sol[OK]    0.014     check[OK]        1  [Correct]               
+samples             [1/1 tests]    [Correct]             [0/0 pts]      [match with expected]             0-01
+task2               [2/2 tests]    [Correct]             [1110/1110 pts]    [match with expected]             2-01
+full                [2/2 tests]    [Correct]             [1110/1110 pts]    [match with expected]             5-01
+
+Subtask summary
+2220/2220 pts
+
+Finished.
+
+py.py
+solution            compile[OK]
+0-01                sol[OK]    0.022     check[OK]        1  [Correct]               
+2-01                sol[OK]    0.021     check[OK]        1  [Correct]               
+2-02                sol[OK]    0.019     check[OK]        1  [Correct]               
+5-01                sol[OK]    0.148     check[OK]        1  [Correct]               
+5-02                sol[OK]    0.140     check[OK]        1  [Correct]               
+samples             [1/1 tests]    [Correct]             [0/0 pts]      [match with expected]             0-01
+task2               [2/2 tests]    [Correct]             [1110/1110 pts]    [match with expected]             2-01
+full                [2/2 tests]    [Correct]             [1110/1110 pts]    [expected: time_limit]            5-01
+
+Subtask summary
+2220/2220 pts
+
+Finished.
+
+task1.cpp
+solution            compile[OK]
+0-01                sol[OK]    0.010     check[OK]        1  [Correct]               
+2-01                sol[OK]    0.010     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+2-02                sol[OK]    0.010     check[OK]        1  [Correct]               
+5-01                sol[FAIL]  0.120     check[SKIP]      0  [Runtime Error]         solution finished with exit code 139
+5-02                sol[FAIL]  0.120     check[SKIP]      0  [Runtime Error]         solution finished with exit code 139
+samples             [1/1 tests]    [Correct]             [0/0 pts]      [match with expected]             0-01
+task2               [2/2 tests]    [Wrong Answer]        [0/1110 pts]   [match with expected]             2-01
+full                [2/2 tests]    [Runtime Error]       [0/1110 pts]   [expected: incorrect]             5-01
+
+Subtask summary
+0/2220 pts
+
+Finished.
+
+task2.cpp
+solution            compile[WARN]
+0-01                sol[OK]    0.008     check[OK]        1  [Correct]               
+2-01                sol[OK]    0.010     check[OK]        1  [Correct]               
+2-02                sol[OK]    0.008     check[OK]        1  [Correct]               
+5-01                sol[OK]    0.010     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+5-02                sol[OK]    0.011     check[OK]        1  [Correct]               
+samples             [1/1 tests]    [Correct]             [0/0 pts]      [match with expected]             0-01
+task2               [2/2 tests]    [Correct]             [1110/1110 pts]    [match with expected]             2-01
+full                [2/2 tests]    [Wrong Answer]        [0/1110 pts]   [match with expected]             5-01
+
+Subtask summary
+1110/2220 pts
+
+Finished.
+
