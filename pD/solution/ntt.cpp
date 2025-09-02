@@ -1,14 +1,14 @@
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long LL;
-const LL maxn=1000000;
+const LL maxn=2000000;
 inline void myassert(bool x) {if(!x) assert(0);}
 
 // from https://toj.tfcis.org/oj/chal/20205/
 class NTT
 {
     private:
-    LL epsilon[maxn],buffer[maxn],temp[maxn];
+    LL epsilon[maxn],buffer[maxn];
     static const LL P=(7LL<<50)+1;
     static const LL G=6;
     inline LL add(const LL& a,const LL b)
@@ -91,7 +91,7 @@ class NTT
     }
 }ntt;
 
-char buffer[10000000];
+char buffer[15000000];
 class Bignum
 {
     private:

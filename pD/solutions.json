@@ -29,5 +29,11 @@
             "task1": "correct",
             "task2": "correct"
         }
+    },
+    "n2.cpp": {
+        "verdict": "correct",
+        "except": {
+            "full": "time_limit"
+        }
     }
 }

@@ -144,26 +144,8 @@ void sol(){
         A.sub(B);
     }
     cout << (A.to_string() == C.to_string() ? "Yes" : "No") << '\n';
-	// if(op == "mul"){
-	// 	BIGINT A(a), B(b);
-	// 	A.mul(B);
-	// 	A.output();
-	// }
-	// else{
-	// 	BIGINT ans("1"), A(a);
-	// 	int p = stoll(b);
-	// 	while(p){
-	// 		if(p & 1) ans.mul(A);
-	// 		p >>= 1;
-	// 		A.mul(A);
-	// 	}
-	// 	ans.output();
-	// }
 }
-/*
 
-
-*/
 signed main(){
     ios::sync_with_stdio(0), cin.tie(0), cerr.tie(0);
     int t = 1; //cin >> t;
