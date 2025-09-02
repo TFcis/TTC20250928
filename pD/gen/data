@@ -14,10 +14,10 @@ gen 9 18 7 5
 manual 1-yes.in
 manual 1-no.in
 gen 18 36 7 1
-gen 98 36 7 2
-gen 98 36 7 3
-gen 98 36 7 4
-gen 98 36 7 5
+gen 18 36 7 2
+gen 18 36 7 3
+gen 18 36 7 4
+gen 18 36 7 5
 
 @subtask task3
 gen 100000 100000 6 1
