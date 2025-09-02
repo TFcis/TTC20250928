@@ -8,6 +8,9 @@
     "random_compile_time.cpp": {
         "verdict": "correct"
     },
+    "wonderhoiN.cpp": {
+        "verdict": "correct"
+    },
     "py.py": {
         "verdict": "correct",
         "except": {
