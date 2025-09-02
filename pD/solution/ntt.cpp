@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long LL;
-const LL maxn=400009;
+const LL maxn=1000000;
 inline void myassert(bool x) {if(!x) assert(0);}
 
 // from https://toj.tfcis.org/oj/chal/20205/
