@@ -16,5 +16,5 @@ manual 1-no.in
 @subtask full
 manual 7-yes.in
 manual 7-no.in
-gen 500000 1000000 4 fvcz # only have
-gen 500000 1000000 7 fggv
+# gen 500000 1000000 4 fvcz # only have
+# gen 500000 1000000 7 fggv
