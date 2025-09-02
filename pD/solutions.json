@@ -12,16 +12,16 @@
         }
     },
     "task1.cpp": {
-        "verdict": "wrong_answer",
+        "verdict": "incorrect",
         "except": {
-            "sample": "correct",
+            "samples": "correct",
             "task1": "correct"
         }
     },
     "task2.cpp": {
-        "verdict": "wrong_answer",
+        "verdict": "incorrect",
         "except": {
-            "sample": "correct",
+            "samples": "correct",
             "task1": "correct",
             "task2": "correct"
         }
