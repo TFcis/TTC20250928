@@ -1,10 +1,10 @@
-# TODO: 題目名稱
+# 完美錢包
 
-<!-- \begin{figure}[h]
+\begin{figure}[h]
 \centering
 \includegraphics[width=5in]{Gemini_Generated_Image_xgwbp6xgwbp6xgwb.png}
 \caption{好吃的便當}
-\end{figure} -->
+\end{figure}
 
 Blame 很喜歡完美的東西
 例如完全平方數
