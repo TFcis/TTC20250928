@@ -1,5 +1,17 @@
 {
 	"correct.cpp": {
 		"verdict": "model_solution"
+	},
+	"task1.cpp": {
+		"verdict": "incorrect",
+		"except": {"sstpn": "correct"}
+	},
+	"task2.cpp": {
+		"verdict": "incorrect",
+		"except": {"samples": "correct","sstpn": "correct", "sstn": "correct"}
+	},
+	"task3.cpp": {
+		"verdict": "correct",
+		"except": {"tn":"time_limit"}
 	}
 }

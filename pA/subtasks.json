@@ -9,9 +9,27 @@
             "text": "範例輸入輸出",
             "validators": []
         },
-        "full": {
+        "sstpn": {
             "index": 1,
-            "score": 100,
+            "score": 5,
+            "text": "$1 \\le T \\le 100, 0 \\le N \\le 1*10^3$",
+            "validators": []
+        },
+        "sstn": {
+            "index": 2,
+            "score": 15,
+            "text": "$1 \\le T \\le 100, 0 \\le |N| \\le 1*10^3$",
+            "validators": []
+        },
+        "stn": {
+            "index": 3,
+            "score": 30,
+            "text": "$1 \\le T \\le 1*10^3, 0 \\le |N| \\le 1*10^8$",
+            "validators": []
+        },
+        "tn": {
+            "index": 4,
+            "score": 50,
             "text": "無額外限制",
             "validators": []
         }
