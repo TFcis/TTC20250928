@@ -8,7 +8,7 @@ int main(int argc, char* argv[]) {
 
 	int upper_t = atoi(argv[1]);
 	bool abs = atoi(argv[2]);
-	long long upper_n = atoi(argv[3]);
+	long long upper_n = atol(argv[3]);
 	int t = inf.readInt(1, upper_t, "t");
 	inf.readEoln();
 	for(int i = 0; i < t; i++) {

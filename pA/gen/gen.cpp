@@ -9,7 +9,7 @@ int main(int argc, char* argv[]) {
 	
 	int t = atoi(argv[1]);
 	bool abs = atoi(argv[2]);
-	long long n = atoi(argv[3]);
+	long long n = atol(argv[3]);
 	cout << t << endl;
 	for(int i = 0; i < t - 1; i++) {
 		if(!abs) cout << rnd.next(0LL, n);
