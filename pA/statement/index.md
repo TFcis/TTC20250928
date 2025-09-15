@@ -2,7 +2,7 @@
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=5in]{Gemini_Generated_Image_xgwbp6xgwbp6xgwb.png}
+\includegraphics[width=5in]{Gemini_Generated_Image_xgwbp6xgwbp6xgwb.jpg}
 \caption{好吃的便當}
 \end{figure}
 
