@@ -131,27 +131,32 @@ constexpr u64 fsp(u128 a, u64 b, const u64 mod) {
 }
 
 // from wonderhoi
-constexpr u64 check64(u64 p) {
-	bool b = false, tmb = true;
+constexpr bool check64(u64 p) {
+    if (p < 2) return 0;
+	bool tmb = false;
 	u64 exp = p - 1, tmp = 0;
 	int num2 = 0;
 	for (const auto i : basenum){
-		tmb = true;
+        if (i >= p) break;
+		tmb = false;
 		exp = p - 1;
 		num2 = 0;
 		for (; (exp & 1)^1; exp >>= 1) num2++;
 		tmp = fsp(i, exp, p);
-		if (tmp == 1 || tmp == p - 1) continue;
-		for (int j = 0; j < num2; j++){
-			if (fsp(tmp, 2, p) == p - 1){
-				tmb = false;
-				break;
-			}
-			tmp = tmp * tmp % p;
+		if (tmp == 1 || tmp == p - 1) {
+            tmb = true;
+            continue;
+        }
+		for (int j = 1; j < num2; j++){
+            tmp = tmp * tmp % p;
+            if (tmp == p - 1) {
+                tmb = true;
+                break;
+            }
 		}
-		b |= tmb;
+        if (!tmb) return false;
 	}
-	return b;
+	return true;
 }
 
 // from wonderhoi

@@ -4,15 +4,16 @@ using namespace std;
 #define u64 unsigned long long
 #define u128 __uint128_t
 #define ena ios::sync_with_stdio(0);cin.tie(0);
- 
+
 i64 prime64(){
-	random_device rd;  
+	random_device rd;
     mt19937_64 gen(rd());
     u64 l = 1000000000000000000ull, r = 2000000000000000000ull, p; // 1e18, 2e18
     uniform_int_distribution<u64> dist(l, r);
     vector<u64> basenum{2ull, 325ull, 9375ull, 28178ull, 450775ull, 9780504ull, 1795265022ull};
     function<bool(u64)> check64 = [&basenum](u64 p){
-    	bool b = 0, tmb;
+		if(p<2) return false;
+    	bool tmb;
     	u64 exp, tmp;
     	int num2;
     	function<u64(u128, u64, const u64&)> fsp = [](u128 a, u64 b, const u64& mod){
@@ -29,26 +30,29 @@ i64 prime64(){
 			return (u64)(tmp%(u128)mod);
 	    };
     	for(auto& i:basenum){
-    		tmb = 1;
+    		if(i >= p) break;
+    		tmb = 0;
     		exp = p-1;
     		num2 = 0;
     		for(; (exp&1)^1 ; exp>>=1) num2++;
     		tmp = fsp(i,exp,p);
-    		if(tmp==1||tmp==p-1) continue;
-    		for(int i=0;i<num2;i++){
-    			if(fsp(tmp,2,p)==p-1){
-    				tmb = 0;
+    		if(tmp==1||tmp==p-1){
+    			tmb = 1;
+    			continue;
+    		}
+    		for(int i=1;i<num2;i++){
+    			tmp = tmp*tmp%p;
+    			if(tmp==p-1){
+    				tmb = 1;
     				break;
     			}
-    			tmp = tmp*tmp%p;
     		}
-    		b|=tmb;
+    		if(!tmb) return false;
     	}
-    	return b;
+    	return true;
     };
-    do{
-		p = dist(gen)|1ull;
-   	}while(check64(p));
+    do p = dist(gen)|1ull;
+    while(check64(p));
 	return p;
 }
 
