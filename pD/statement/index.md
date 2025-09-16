@@ -2,7 +2,7 @@
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=5in]{Gemini_Generated_Image_x3vtm0x3vtm0x3vt.png}
+\includegraphics[width=5in]{Gemini_Generated_Image_x3vtm0x3vtm0x3vt.jpg}
 \caption{很多錯誤的考卷}
 \end{figure}
 
