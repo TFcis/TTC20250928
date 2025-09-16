@@ -2,14 +2,15 @@
 using namespace std;
 
 void solve() {
-    int n, a, b;
+    int n;
+    long long a, b;
     bool ne = 0;
     cin >> n;
     if( n < 0 ) {
         n = -n;
         ne = 1;
     }
-    for(int i = 0; i <= sqrt(n); i++) {
+    for(int i = 1; i <= sqrt(n); i++) {
         if(n % i == 0) {
             a = (i + n / i) / 2;
             b = (n / i - i) / 2;
