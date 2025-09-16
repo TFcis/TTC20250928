@@ -4,7 +4,7 @@ using namespace std;
 string to_string(__int128 val) {
     string output = "";
     bool ne = 0;
-    if(val < 0){
+    if(val < (__int128) 0){
         ne = 1;
         val = -val;
     }
@@ -13,7 +13,8 @@ string to_string(__int128 val) {
         val /= 10;
     }
     reverse(output.begin(), output.end());
-    return (ne ? "-" : "") + output;
+    if(ne) output = '-' + output;
+    return output;
 }
 
 void solve() {
@@ -23,7 +24,7 @@ void solve() {
     for(int i = 1; i <= n; i++) {
         cin >> k;
         ans += last * k * (i & 1 ? 1 : -1);
-        last = last * (n - i + 1) / i;
+        last = last * (n - i) / i;
     }
     cout << to_string(ans) << '\n';
     return;

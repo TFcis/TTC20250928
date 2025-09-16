@@ -11,6 +11,7 @@ void solve() {
             arr[j] = arr[j+1] - arr[j];
         }
     }
+    cout << arr[0] << '\n';
     return;
 }
 
