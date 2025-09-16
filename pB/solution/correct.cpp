@@ -13,6 +13,7 @@ string to_string(__int128 val) {
         val /= 10;
     }
     reverse(output.begin(), output.end());
+    if(output.empty()) return "0";
     if(ne) output = '-' + output;
     return output;
 }
