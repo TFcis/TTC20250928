@@ -4,7 +4,7 @@ using namespace std;
 void solve() {
     long long n, a, b;
     cin >> n;
-    if(n % 2 == 1) {
+    if(abs(n) % 2 == 1) {
         a = (n + 1) / 2;
         b = (n - 1) / 2;
     }else if(n % 4 == 0) {
