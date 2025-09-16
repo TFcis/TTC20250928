@@ -1,5 +1,9 @@
 {
 	"correct.cpp": {
 		"verdict": "model_solution"
+	},
+	"task1.cpp": {
+		"verdict": "time_limit",
+		"expects": ["stnm": "correct"]
 	}
 }
