@@ -13,13 +13,13 @@
 	    "index": 1,
 	    "score": 25,
 	    "text": "$1 \\le T \\le 2 \\cdots 10^4, 1 \\le N \\le 40$",
-	    "validators": ["validator 20000 40 800000 2000000"]
+	    "validators": ["validator.cpp 20000 40 800000 2000000"]
 	},
 	"pn1": {
 	    "index": 2,
 	    "score": 15,
 	    "text": "$S_i = (-1)^{(i-1)}$",
-	    "validators": ["validator 100000 100 2000000 -1"]
+	    "validators": ["validator.cpp 100000 100 2000000 -1"]
 	},
         "full": {
             "index": 3,
