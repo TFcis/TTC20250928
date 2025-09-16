@@ -1,5 +1,13 @@
 {
 	"correct.cpp": {
 		"verdict": "model_solution"
+	},
+	"task1.cpp": {
+		"verdict": "time_limit",
+		"excpet": {"samples": "correct", "stn": "correct"}
+	},
+	"task2.cpp": {
+		"verdict": "incorrect",
+		"except": {"pn1": "correct"}
 	}
 }

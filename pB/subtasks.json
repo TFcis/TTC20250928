@@ -1,6 +1,6 @@
 {
     "global_validators": [
-        "validator.cpp"
+        "validator.cpp 100000 100 2000000 2000000"
     ],
     "subtasks": {
         "samples": {
@@ -9,9 +9,21 @@
             "text": "範例輸入輸出",
             "validators": []
         },
+	"stn": {
+	    "index": 1,
+	    "score": 25,
+	    "text": "$1 \\le T \\le 2 \\cdots 10^4, 1 \\le N \\le 40$",
+	    "validators": ["validator 20000 40 800000 2000000"]
+	},
+	"pn1": {
+	    "index": 2,
+	    "score": 15,
+	    "text": "$S_i = (-1)^{(i-1)}$",
+	    "validators": ["validator 100000 100 2000000 -1"]
+	},
         "full": {
-            "index": 1,
-            "score": 100,
+            "index": 3,
+            "score": 60,
             "text": "無額外限制",
             "validators": []
         }

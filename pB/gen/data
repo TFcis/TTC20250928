@@ -1,8 +1,41 @@
-# see https://github.com/ioi-2017/tps/blob/master/docs/README.md#gendata
-# TODO
-@subtask samples
-manual example-1.in
-
-@subtask full
-gen	20
-gen	30
+ # see https://github.com/ioi-2017/tps/blob/master/docs/README.md#gendata
+ # TODO
+ @subtask samples
+ manual example-1.in
+  
+ @subtask stn
+ gen 20000 40 2000000 1
+ gen 20000 40 2000000 2
+ gen 20000 40 2000000 3
+ gen 20000 40 2000000 4
+ gen 20000 40 2000000 5
+ gen 20000 40 2000000 6
+ gen 20000 40 2000000 7
+ gen 20000 40 2000000 8
+ gen 20000 40 2000000 9
+ gen 20000 40 2000000 10
+ 
+ @subtask pn1
+ gen 100000 100 -1 1
+ 
+ @subtask full
+ gen 100000 100 2000000 1
+ gen 100000 100 2000000 2
+ gen 100000 100 2000000 3
+ gen 100000 100 2000000 4
+ gen 100000 100 2000000 5
+ gen 100000 100 2000000 6
+ gen 100000 100 2000000 7
+ gen 100000 100 2000000 8
+ gen 100000 100 2000000 9
+ gen 100000 100 2000000 10
+ gen 100000 20 2000000 1
+ gen 100000 20 2000000 2
+ gen 100000 20 2000000 3
+ gen 100000 20 2000000 4
+ gen 100000 20 2000000 5
+ gen 100000 20 2000000 6
+ gen 100000 20 2000000 7
+ gen 100000 20 2000000 8
+ gen 100000 20 2000000 9
+ gen 100000 20 2000000 10
