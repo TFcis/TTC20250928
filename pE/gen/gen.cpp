@@ -13,7 +13,7 @@ int main(int argc, char* argv[]) {
 	cout << t << endl;
 	for(int i = 0; i < t; i++) {
 		int n = rnd.next(1, max_n);
-		int m = rnd.next(1LL, min(max_nm / n, (long long) m));
+		int m = rnd.next(1LL, min(max_nm / n, (long long) max_m));
 		cout << n << " " << m << endl;
 	}
 	return 0;
