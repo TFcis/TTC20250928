@@ -1,0 +1,132 @@
+correct.cpp
+solution            compile[OK]
+0-01                sol[OK]    0.009     check[OK]        1  [Correct]               
+1-01                sol[OK]    0.050     check[OK]        1  [Correct]               
+1-02                sol[OK]    0.052     check[OK]        1  [Correct]               
+1-03                sol[OK]    0.052     check[OK]        1  [Correct]               
+1-04                sol[OK]    0.052     check[OK]        1  [Correct]               
+1-05                sol[OK]    0.053     check[OK]        1  [Correct]               
+1-06                sol[OK]    0.052     check[OK]        1  [Correct]               
+1-07                sol[OK]    0.052     check[OK]        1  [Correct]               
+1-08                sol[OK]    0.049     check[OK]        1  [Correct]               
+1-09                sol[OK]    0.050     check[OK]        1  [Correct]               
+1-10                sol[OK]    0.049     check[OK]        1  [Correct]               
+2-01                sol[OK]    0.009     check[OK]        1  [Correct]               
+3-01                sol[FAIL]  0.114     check[SKIP]      0  [Time Limit Exceeded]   solution finished after time limit '0.1', with exit code '0'
+3-02                sol[FAIL]  0.111     check[SKIP]      0  [Time Limit Exceeded]   solution finished after time limit '0.1', with exit code '0'
+3-03                sol[FAIL]  0.114     check[SKIP]      0  [Time Limit Exceeded]   solution finished after time limit '0.1', with exit code '0'
+3-04                sol[FAIL]  0.115     check[SKIP]      0  [Time Limit Exceeded]   solution finished after time limit '0.1', with exit code '0'
+3-05                sol[FAIL]  0.111     check[SKIP]      0  [Time Limit Exceeded]   solution finished after time limit '0.1', with exit code '0'
+3-06                sol[FAIL]  0.113     check[SKIP]      0  [Time Limit Exceeded]   solution finished after time limit '0.1', with exit code '0'
+3-07                sol[FAIL]  0.115     check[SKIP]      0  [Time Limit Exceeded]   solution finished after time limit '0.1', with exit code '0'
+3-08                sol[FAIL]  0.111     check[SKIP]      0  [Time Limit Exceeded]   solution finished after time limit '0.1', with exit code '0'
+3-09                sol[FAIL]  0.112     check[SKIP]      0  [Time Limit Exceeded]   solution finished after time limit '0.1', with exit code '0'
+3-10                sol[FAIL]  0.110     check[SKIP]      0  [Time Limit Exceeded]   solution finished after time limit '0.1', with exit code '0'
+3-11                sol[FAIL]  0.118     check[SKIP]      0  [Time Limit Exceeded]   solution finished after time limit '0.1', with exit code '0'
+3-12                sol[FAIL]  0.119     check[SKIP]      0  [Time Limit Exceeded]   solution finished after time limit '0.1', with exit code '0'
+3-13                sol[FAIL]  0.121     check[SKIP]      0  [Time Limit Exceeded]   solution finished after time limit '0.1', with exit code '0'
+3-14                sol[FAIL]  0.119     check[SKIP]      0  [Time Limit Exceeded]   solution finished after time limit '0.1', with exit code '0'
+3-15                sol[FAIL]  0.120     check[SKIP]      0  [Time Limit Exceeded]   solution finished after time limit '0.1', with exit code '0'
+3-16                sol[FAIL]  0.121     check[SKIP]      0  [Time Limit Exceeded]   solution finished after time limit '0.1', with exit code '0'
+3-17                sol[FAIL]  0.121     check[SKIP]      0  [Time Limit Exceeded]   solution finished after time limit '0.1', with exit code '0'
+3-18                sol[FAIL]  0.119     check[SKIP]      0  [Time Limit Exceeded]   solution finished after time limit '0.1', with exit code '0'
+3-19                sol[FAIL]  0.120     check[SKIP]      0  [Time Limit Exceeded]   solution finished after time limit '0.1', with exit code '0'
+3-20                sol[FAIL]  0.118     check[SKIP]      0  [Time Limit Exceeded]   solution finished after time limit '0.1', with exit code '0'
+samples             [1/1 tests]    [Correct]             [0/0 pts]      [match with expected]             0-01
+stn                 [10/10 tests]  [Correct]             [25/25 pts]    [match with expected]             1-01
+pn1                 [1/1 tests]    [Correct]             [15/15 pts]    [match with expected]             2-01
+full                [20/20 tests]  [Time Limit Exceeded] [0/60 pts]     [expected: model_solution]        3-01
+
+Subtask summary
+40/100 pts
+
+Finished.
+
+task1.cpp
+solution            compile[OK]
+0-01                sol[OK]    0.011     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+1-01                sol[OK]    0.043     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+1-02                sol[OK]    0.043     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+1-03                sol[OK]    0.042     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+1-04                sol[OK]    0.044     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+1-05                sol[OK]    0.044     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+1-06                sol[OK]    0.046     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+1-07                sol[OK]    0.045     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+1-08                sol[OK]    0.045     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+1-09                sol[OK]    0.042     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+1-10                sol[OK]    0.043     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+2-01                sol[OK]    0.012     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+3-01                sol[FAIL]  0.100     check[SKIP]      0  [Time Limit Exceeded]   solution finished after time limit '0.1', with exit code '0'
+3-02                sol[OK]    0.098     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+3-03                sol[OK]    0.100     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+3-04                sol[FAIL]  0.102     check[SKIP]      0  [Time Limit Exceeded]   solution finished after time limit '0.1', with exit code '0'
+3-05                sol[OK]    0.099     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+3-06                sol[FAIL]  0.101     check[SKIP]      0  [Time Limit Exceeded]   solution finished after time limit '0.1', with exit code '0'
+3-07                sol[OK]    0.100     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+3-08                sol[FAIL]  0.101     check[SKIP]      0  [Time Limit Exceeded]   solution finished after time limit '0.1', with exit code '0'
+3-09                sol[FAIL]  0.101     check[SKIP]      0  [Time Limit Exceeded]   solution finished after time limit '0.1', with exit code '0'
+3-10                sol[OK]    0.098     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+3-11                sol[OK]    0.094     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+3-12                sol[OK]    0.092     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+3-13                sol[OK]    0.094     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+3-14                sol[OK]    0.092     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+3-15                sol[OK]    0.092     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+3-16                sol[OK]    0.096     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+3-17                sol[OK]    0.093     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+3-18                sol[OK]    0.092     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+3-19                sol[OK]    0.093     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+3-20                sol[OK]    0.096     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+samples             [1/1 tests]    [Wrong Answer]        [0/0 pts]      [expected: time_limit]            0-01
+stn                 [10/10 tests]  [Wrong Answer]        [0/25 pts]     [expected: time_limit]            1-01
+pn1                 [1/1 tests]    [Wrong Answer]        [0/15 pts]     [expected: time_limit]            2-01
+full                [20/20 tests]  [Time Limit Exceeded] [0/60 pts]     [match with expected]             3-01
+
+Subtask summary
+0/100 pts
+
+Finished.
+
+task2.cpp
+solution            compile[OK]
+0-01                sol[OK]    0.009     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+1-01                sol[OK]    0.044     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+1-02                sol[OK]    0.041     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+1-03                sol[OK]    0.043     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+1-04                sol[OK]    0.040     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+1-05                sol[OK]    0.041     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+1-06                sol[OK]    0.040     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+1-07                sol[OK]    0.042     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+1-08                sol[OK]    0.042     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+1-09                sol[OK]    0.040     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+1-10                sol[OK]    0.042     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+2-01                sol[OK]    0.008     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+3-01                sol[OK]    0.083     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+3-02                sol[OK]    0.082     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+3-03                sol[OK]    0.085     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+3-04                sol[OK]    0.083     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+3-05                sol[OK]    0.084     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+3-06                sol[OK]    0.087     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+3-07                sol[OK]    0.087     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+3-08                sol[OK]    0.082     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+3-09                sol[OK]    0.084     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+3-10                sol[OK]    0.083     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+3-11                sol[OK]    0.094     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+3-12                sol[OK]    0.096     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+3-13                sol[OK]    0.093     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+3-14                sol[OK]    0.097     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+3-15                sol[OK]    0.095     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+3-16                sol[OK]    0.095     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+3-17                sol[OK]    0.096     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+3-18                sol[OK]    0.094     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+3-19                sol[OK]    0.092     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+3-20                sol[OK]    0.095     check[OK]        0  [Wrong Answer]          The output differs from the correct answer.
+samples             [1/1 tests]    [Wrong Answer]        [0/0 pts]      [match with expected]             0-01
+stn                 [10/10 tests]  [Wrong Answer]        [0/25 pts]     [match with expected]             1-01
+pn1                 [1/1 tests]    [Wrong Answer]        [0/15 pts]     [expected: correct]               2-01
+full                [20/20 tests]  [Wrong Answer]        [0/60 pts]     [match with expected]             3-01
+
+Subtask summary
+0/100 pts
+
+Finished.
+
