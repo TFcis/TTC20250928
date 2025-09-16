@@ -10,12 +10,14 @@ Upon a certain day, Wonderhoi did attend a lesson of numbers.
 
 The master, Sir Dirichlet, did expound unto his pupils a cunning art whereby one might swiftly discern the greatest common divisor (gcd) of two numbers:
 
-```
-First, taketh the lesser of the twain.
-Then substract the lesser from the greater, until the greater falleth beneath the lesser.  
-Thereafter, exchange their places, and repeat the process anon.  
-Continue thus, until one number falleth unto naught; the other then remaineth, and that is the gcd of the two from the beginning.
-```
+**First, taketh the lesser of the twain.**
+
+**Then substract the lesser from the greater, until the greater falleth beneath the lesser.**  
+
+**Thereafter, exchange their places, and repeat the process anon.**
+
+**Continue thus, until one number falleth unto naught; the other then remaineth, and that is the gcd of the two from the beginning.**
+
 
 As all masters are wont to do, Sir Dirichlet would prove whether Wonderhoi had grasped this craft.
 
@@ -60,6 +62,7 @@ $\varphi$ 為歐拉函數
 
 ## 輸出
 輸出 $\sum\limits_{i\ =\ 1}^n{\sum\limits_{j\ =\ 1}^m{\varphi (gcd(i,j))}}$
+
 $\varphi$ 為歐拉函數
 
 ## 輸入限制
@@ -100,6 +103,8 @@ $= 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 2 + 1 = 13$
 第三筆:
 
 $\varphi (gcd(1, 1)) + \varphi (gcd(2, 1)) = \varphi (1) + \varphi (1) = 1 + 1 = 2$
+
+\clearpage
 
 ## 範例輸入2
 \testfile{0-02.in}
