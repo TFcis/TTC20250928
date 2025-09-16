@@ -12,11 +12,10 @@ int main(int argc, char* argv[]) {
 	const int sigma_n_max = 2000000;
 	int s_max = atoi(argv[3]);
 	if(s_max != -1) {
-		int t = min(t_max, sigma_n_max/n_max);
-		int max_n = min(n_max, sigma_n_max/t);
+		int t = t_max;
 		cout << t << endl;
 		for(int i = 0; i < t; i++) {
-			int n = rnd.next(1, max_n);
+			int n = max_n;
 			cout << n << endl;
 			for (int j = 0; j < n; j++) {
 				int s = rnd.next(-s_max, s_max);
