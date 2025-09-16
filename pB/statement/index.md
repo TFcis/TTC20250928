@@ -2,7 +2,7 @@
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=5in]{Gemini_Generated_Image_pa6emupa6emupa6e.png}
+\includegraphics[width=5in]{Gemini_Generated_Image_pa6emupa6emupa6e.jpg}
 \caption{Madfarm開賽車}
 \end{figure}
 
