@@ -1,23 +1,35 @@
-# TODO: 題目名稱
+# 超級加速度
 
-<!-- \begin{figure}[h]
+\begin{figure}[h]
 \centering
-\includegraphics[width=2in]{TODO.jpg}
-\caption{TODO: 圖片說明}
-\end{figure} -->
+\includegraphics[width=5in]{Gemini_Generated_Image_pa6emupa6emupa6e.png}
+\caption{Madfarm開賽車}
+\end{figure}
 
-TODO: 題目敘述
+經歷了 [TOJ7](https://toj.tfcis.org/oj/pro/7/) 的洗禮之後
+Madfarm 準備開著他的紅色賽車進行實地演練
+當然, 他肯定會想要秀一波大的
+所以他的速度會變化非常大, 且很快到達終點並大喊
+
+### Ballsdex
+
+你身為一個觀察員, 必須要在他喊出 **Ballsdex** 的那個瞬間算出他的加加加加速度
+但因為 Madfarm 實在太快了 所以你也要盡可能的快且精準的求出答案
 
 \clearpage
 
 ## 輸入
-TODO: 輸入說明
+給 $T$ 代表接下來有 $T$ 組測資
+每一組的第一行會有一數 $N$ 
+$N$ 的下一行會再給長度為 $N$ 的數列 $S$
 
 ## 輸出
-TODO: 輸出說明
+輸出 $N-1$ 次差分後的結果 (差分到最後一個數字)
 
 ## 輸入限制
- - TODO: 輸入限制
+ - $1 \le T \le 1 * 10^5$
+ - $1 \le N \le 100, \Sigma\ {N} \le 2 * 10^6$
+ - $-2*10^6 \le S_i \le 2*10^6 \ (1 \le i \le N)$
 
 ## 子任務
 \subtasks
@@ -29,3 +41,34 @@ TODO: 輸出說明
 
 ## 範例輸出
 \testfile{0-01.out}
+
+## 範例測資解釋
+
+對於第一組測資:
+第一次差分:
+
+```
+9695-3227 3227-8902 8902-11304 11304-10000
+```
+
+```
+6468 -5675 -2402 1304
+```
+
+第二次差分:
+
+```
+12143 -3273 -3436
+```
+
+第三次差分:
+
+```
+14545 1034
+```
+
+第四次差分:
+
+```
+13511
+```

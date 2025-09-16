@@ -3,28 +3,20 @@ using namespace std;
 
 string to_string(__int128 val) {
     string output = "";
-    bool ne = 0;
-    if(val < 0){
-        ne = 1;
-        val = -val;
-    }
     while(val) {
         output += val % 10 + '0';
         val /= 10;
     }
     reverse(output.begin(), output.end());
-    return (ne ? "-" : "") + output;
+    return output;
 }
 
 void solve() {
     int n, k;
-    __int128 ans = 0, last = 1;
+    __int128 ans;
     cin >> n;
-    for(int i = 1; i <= n; i++) {
-        cin >> k;
-        ans += last * k * (i & 1 ? 1 : -1);
-        last = last * (n - i + 1) / i;
-    }
+    for(int i = 0; i < n ; i++) cin >> k;
+    ans = (__int128)1 << (n - 1);
     cout << to_string(ans) << '\n';
     return;
 }
