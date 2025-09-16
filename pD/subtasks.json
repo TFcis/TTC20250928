@@ -11,7 +11,7 @@
         },
         "task1": {
             "index": 1,
-            "score": 1110,
+            "score": 3,
             "text": "$0\\ le A,\\ B \\le 10^9,\\ 0 \\le C \\le 10^{18}$",
             "validators": [
                 "validator.cpp 9 18 7"
@@ -19,7 +19,7 @@
         },
         "task2": {
             "index": 2,
-            "score": 1110,
+            "score": 8,
             "text": "$0\\ le A,\\ B \\le 10^{18},\\ 0 \\le C \\le 10^{36}$",
             "validators": [
                 "validator.cpp 18 36 7"
@@ -27,7 +27,7 @@
         },
         "task3": {
             "index": 3,
-            "score": 1110,
+            "score": 17,
             "text": "$0\\ le A,\\ B \\le 10^{100000},\\ 0 \\le C \\le 10^{100000}$",
             "validators": [
                 "validator.cpp 100000 100000 6"
@@ -35,7 +35,7 @@
         },
         "task4": {
             "index": 4,
-            "score": 1110,
+            "score": 32,
             "text": "$0\\ le A,\\ B \\le 10^{1000},\\ 0 \\le C \\le 10^{2000}$",
             "validators": [
                 "validator.cpp 1000 2000 7"
@@ -43,7 +43,7 @@
         },
         "full": {
             "index": 5,
-            "score": 1110,
+            "score": 40,
             "text": "無額外限制",
             "validators": [
                 "validator.cpp 500000 1000000 7"

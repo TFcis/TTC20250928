@@ -12,7 +12,7 @@
 	"feedback_level": "full",
 	"max_submission_number": null,
 	"max_user_test_number": null,
-	"min_submission_interval": 120,
+	"min_submission_interval": 30,
 	"min_user_test_interval": null,
 	"score_precision": 0,
 	"score_mode": "max_subtask",
