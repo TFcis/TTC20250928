@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(int argc, char* argv[]) {
-	registerGen("pA", argc, argv);
+	registerTestlibCmd(argc, argv);
 	// about testlib, see https://codeforces.com/blog/entry/18291
     int t = inf.readInt();
     inf.readEoln();
