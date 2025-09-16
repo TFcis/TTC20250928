@@ -1,148 +1,220 @@
 correct.cpp
 solution            compile[OK]
-checker             compile[FAIL]
-exit-code: 2
-stdout:
-make: Entering directory '/__w/TTC20250928/TTC20250928/pA/checker'
-g++ -std=gnu++1y -Wall -Wextra -O2 checker.cpp -o checker.exe
-make: Leaving directory '/__w/TTC20250928/TTC20250928/pA/checker'
-stderr:
-checker.cpp: In function ‘int main(int, char**)’:
-checker.cpp:6:21: error: invalid conversion from ‘const char*’ to ‘int’ [-fpermissive]
-    6 |         registerGen("pA", argc, argv);
-      |                     ^~~~
-      |                     |
-      |                     const char*
-In file included from checker.cpp:2:
-testlib.h:4056:22: note:   initializing argument 1 of ‘void registerGen(int, char**, int)’
- 4056 | void registerGen(int argc, char* argv[], int randomGeneratorVersion)
-      |                  ~~~~^~~~
-checker.cpp:6:27: error: invalid conversion from ‘int’ to ‘char**’ [-fpermissive]
-    6 |         registerGen("pA", argc, argv);
-      |                           ^~~~
-      |                           |
-      |                           int
-testlib.h:4056:34: note:   initializing argument 2 of ‘void registerGen(int, char**, int)’
- 4056 | void registerGen(int argc, char* argv[], int randomGeneratorVersion)
-      |                            ~~~~~~^~~~~~
-checker.cpp:6:33: error: invalid conversion from ‘char**’ to ‘int’ [-fpermissive]
-    6 |         registerGen("pA", argc, argv);
-      |                                 ^~~~
-      |                                 |
-      |                                 char**
-testlib.h:4056:46: note:   initializing argument 3 of ‘void registerGen(int, char**, int)’
- 4056 | void registerGen(int argc, char* argv[], int randomGeneratorVersion)
-      |                                          ~~~~^~~~~~~~~~~~~~~~~~~~~~
-make: *** [Makefile:12: checker.exe] Error 1
+checker             compile[WARN]
+0-01                sol[OK]    0.008     check[OK]        1  [Correct]               
+1-01                sol[OK]    0.008     check[OK]        1  [Correct]               
+1-02                sol[OK]    0.009     check[OK]        1  [Correct]               
+1-03                sol[OK]    0.008     check[OK]        1  [Correct]               
+1-04                sol[OK]    0.008     check[OK]        1  [Correct]               
+1-05                sol[OK]    0.008     check[OK]        1  [Correct]               
+2-01                sol[OK]    0.011     check[OK]        1  [Correct]               
+2-02                sol[OK]    0.009     check[OK]        1  [Correct]               
+2-03                sol[OK]    0.009     check[OK]        1  [Correct]               
+2-04                sol[OK]    0.008     check[OK]        1  [Correct]               
+2-05                sol[OK]    0.011     check[OK]        1  [Correct]               
+3-01                sol[OK]    0.011     check[OK]        1  [Correct]               
+3-02                sol[OK]    0.009     check[OK]        1  [Correct]               
+3-03                sol[OK]    0.009     check[OK]        1  [Correct]               
+3-04                sol[OK]    0.010     check[OK]        1  [Correct]               
+3-05                sol[OK]    0.009     check[OK]        1  [Correct]               
+3-06                sol[OK]    0.009     check[OK]        1  [Correct]               
+3-07                sol[OK]    0.009     check[OK]        1  [Correct]               
+3-08                sol[OK]    0.009     check[OK]        1  [Correct]               
+3-09                sol[OK]    0.009     check[OK]        1  [Correct]               
+3-10                sol[OK]    0.009     check[OK]        1  [Correct]               
+4-01                sol[OK]    0.033     check[OK]        1  [Correct]               
+4-02                sol[OK]    0.032     check[OK]        1  [Correct]               
+4-03                sol[OK]    0.034     check[OK]        1  [Correct]               
+4-04                sol[OK]    0.033     check[OK]        1  [Correct]               
+4-05                sol[OK]    0.032     check[OK]        1  [Correct]               
+4-06                sol[OK]    0.035     check[OK]        1  [Correct]               
+4-07                sol[OK]    0.032     check[OK]        1  [Correct]               
+4-08                sol[OK]    0.033     check[OK]        1  [Correct]               
+4-09                sol[OK]    0.033     check[OK]        1  [Correct]               
+4-10                sol[OK]    0.032     check[OK]        1  [Correct]               
+4-11                sol[OK]    0.033     check[OK]        1  [Correct]               
+4-12                sol[OK]    0.033     check[OK]        1  [Correct]               
+4-13                sol[OK]    0.032     check[OK]        1  [Correct]               
+4-14                sol[OK]    0.032     check[OK]        1  [Correct]               
+4-15                sol[OK]    0.032     check[OK]        1  [Correct]               
+4-16                sol[OK]    0.032     check[OK]        1  [Correct]               
+4-17                sol[OK]    0.032     check[OK]        1  [Correct]               
+4-18                sol[OK]    0.032     check[OK]        1  [Correct]               
+4-19                sol[OK]    0.032     check[OK]        1  [Correct]               
+4-20                sol[OK]    0.032     check[OK]        1  [Correct]               
+samples             [1/1 tests]    [Correct]             [0/0 pts]      [match with expected]             0-01
+sstpn               [5/5 tests]    [Correct]             [5/5 pts]      [match with expected]             1-01
+sstn                [5/5 tests]    [Correct]             [15/15 pts]    [match with expected]             2-01
+stn                 [10/10 tests]  [Correct]             [30/30 pts]    [match with expected]             3-01
+tn                  [20/20 tests]  [Correct]             [50/50 pts]    [match with expected]             4-01
+
+Subtask summary
+100/100 pts
+
+Finished.
 
 task1.cpp
 solution            compile[OK]
-checker             compile[FAIL]
-exit-code: 2
-stdout:
-make: Entering directory '/__w/TTC20250928/TTC20250928/pA/checker'
-g++ -std=gnu++1y -Wall -Wextra -O2 checker.cpp -o checker.exe
-make: Leaving directory '/__w/TTC20250928/TTC20250928/pA/checker'
-stderr:
-checker.cpp: In function ‘int main(int, char**)’:
-checker.cpp:6:21: error: invalid conversion from ‘const char*’ to ‘int’ [-fpermissive]
-    6 |         registerGen("pA", argc, argv);
-      |                     ^~~~
-      |                     |
-      |                     const char*
-In file included from checker.cpp:2:
-testlib.h:4056:22: note:   initializing argument 1 of ‘void registerGen(int, char**, int)’
- 4056 | void registerGen(int argc, char* argv[], int randomGeneratorVersion)
-      |                  ~~~~^~~~
-checker.cpp:6:27: error: invalid conversion from ‘int’ to ‘char**’ [-fpermissive]
-    6 |         registerGen("pA", argc, argv);
-      |                           ^~~~
-      |                           |
-      |                           int
-testlib.h:4056:34: note:   initializing argument 2 of ‘void registerGen(int, char**, int)’
- 4056 | void registerGen(int argc, char* argv[], int randomGeneratorVersion)
-      |                            ~~~~~~^~~~~~
-checker.cpp:6:33: error: invalid conversion from ‘char**’ to ‘int’ [-fpermissive]
-    6 |         registerGen("pA", argc, argv);
-      |                                 ^~~~
-      |                                 |
-      |                                 char**
-testlib.h:4056:46: note:   initializing argument 3 of ‘void registerGen(int, char**, int)’
- 4056 | void registerGen(int argc, char* argv[], int randomGeneratorVersion)
-      |                                          ~~~~^~~~~~~~~~~~~~~~~~~~~~
-make: *** [Makefile:12: checker.exe] Error 1
+checker             compile[WARN]
+0-01                sol[OK]    0.008     check[OK]        1  [Correct]               
+1-01                sol[OK]    0.008     check[OK]        1  [Correct]               
+1-02                sol[OK]    0.008     check[OK]        1  [Correct]               
+1-03                sol[OK]    0.010     check[OK]        1  [Correct]               
+1-04                sol[OK]    0.009     check[OK]        1  [Correct]               
+1-05                sol[OK]    0.009     check[OK]        1  [Correct]               
+2-01                sol[FAIL]  2.302     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+2-02                sol[FAIL]  2.302     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+2-03                sol[FAIL]  2.302     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+2-04                sol[FAIL]  2.302     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+2-05                sol[FAIL]  2.302     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+3-01                sol[FAIL]  2.302     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+3-02                sol[FAIL]  2.302     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+3-03                sol[FAIL]  2.302     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+3-04                sol[FAIL]  2.302     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+3-05                sol[FAIL]  2.303     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+3-06                sol[FAIL]  2.302     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+3-07                sol[FAIL]  2.303     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+3-08                sol[FAIL]  2.303     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+3-09                sol[FAIL]  2.303     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+3-10                sol[FAIL]  2.303     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+4-01                sol[OK]    0.014     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+4-02                sol[OK]    0.015     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+4-03                sol[OK]    0.016     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+4-04                sol[OK]    0.019     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+4-05                sol[OK]    0.017     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+4-06                sol[OK]    0.014     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+4-07                sol[OK]    0.018     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+4-08                sol[OK]    0.017     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+4-09                sol[OK]    0.013     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+4-10                sol[FAIL]  2.303     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+4-11                sol[FAIL]  2.303     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+4-12                sol[FAIL]  2.303     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+4-13                sol[FAIL]  2.303     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+4-14                sol[FAIL]  2.303     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+4-15                sol[FAIL]  2.303     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+4-16                sol[FAIL]  2.303     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+4-17                sol[FAIL]  2.303     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+4-18                sol[FAIL]  2.303     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+4-19                sol[FAIL]  2.304     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+4-20                sol[OK]    0.014     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+samples             [1/1 tests]    [Correct]             [0/0 pts]      [expected: incorrect]             0-01
+sstpn               [5/5 tests]    [Correct]             [5/5 pts]      [match with expected]             1-01
+sstn                [5/5 tests]    [Time Limit Exceeded] [0/15 pts]     [expected: incorrect]             2-01
+stn                 [10/10 tests]  [Time Limit Exceeded] [0/30 pts]     [expected: incorrect]             3-01
+tn                  [20/20 tests]  [Wrong Answer]        [0/50 pts]     [match with expected]             4-01
+
+Subtask summary
+5/100 pts
+
+Finished.
 
 task2.cpp
 solution            compile[OK]
-checker             compile[FAIL]
-exit-code: 2
-stdout:
-make: Entering directory '/__w/TTC20250928/TTC20250928/pA/checker'
-g++ -std=gnu++1y -Wall -Wextra -O2 checker.cpp -o checker.exe
-make: Leaving directory '/__w/TTC20250928/TTC20250928/pA/checker'
-stderr:
-checker.cpp: In function ‘int main(int, char**)’:
-checker.cpp:6:21: error: invalid conversion from ‘const char*’ to ‘int’ [-fpermissive]
-    6 |         registerGen("pA", argc, argv);
-      |                     ^~~~
-      |                     |
-      |                     const char*
-In file included from checker.cpp:2:
-testlib.h:4056:22: note:   initializing argument 1 of ‘void registerGen(int, char**, int)’
- 4056 | void registerGen(int argc, char* argv[], int randomGeneratorVersion)
-      |                  ~~~~^~~~
-checker.cpp:6:27: error: invalid conversion from ‘int’ to ‘char**’ [-fpermissive]
-    6 |         registerGen("pA", argc, argv);
-      |                           ^~~~
-      |                           |
-      |                           int
-testlib.h:4056:34: note:   initializing argument 2 of ‘void registerGen(int, char**, int)’
- 4056 | void registerGen(int argc, char* argv[], int randomGeneratorVersion)
-      |                            ~~~~~~^~~~~~
-checker.cpp:6:33: error: invalid conversion from ‘char**’ to ‘int’ [-fpermissive]
-    6 |         registerGen("pA", argc, argv);
-      |                                 ^~~~
-      |                                 |
-      |                                 char**
-testlib.h:4056:46: note:   initializing argument 3 of ‘void registerGen(int, char**, int)’
- 4056 | void registerGen(int argc, char* argv[], int randomGeneratorVersion)
-      |                                          ~~~~^~~~~~~~~~~~~~~~~~~~~~
-make: *** [Makefile:12: checker.exe] Error 1
+checker             compile[WARN]
+0-01                sol[OK]    0.010     check[OK]        1  [Correct]               
+1-01                sol[OK]    0.008     check[OK]        1  [Correct]               
+1-02                sol[OK]    0.010     check[OK]        1  [Correct]               
+1-03                sol[OK]    0.011     check[OK]        1  [Correct]               
+1-04                sol[OK]    0.009     check[OK]        1  [Correct]               
+1-05                sol[OK]    0.010     check[OK]        1  [Correct]               
+2-01                sol[OK]    0.011     check[OK]        1  [Correct]               
+2-02                sol[OK]    0.012     check[OK]        1  [Correct]               
+2-03                sol[OK]    0.008     check[OK]        1  [Correct]               
+2-04                sol[OK]    0.008     check[OK]        1  [Correct]               
+2-05                sol[OK]    0.012     check[OK]        1  [Correct]               
+3-01                sol[FAIL]  2.304     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+3-02                sol[FAIL]  2.304     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+3-03                sol[FAIL]  2.304     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+3-04                sol[FAIL]  2.304     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+3-05                sol[FAIL]  2.304     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+3-06                sol[FAIL]  2.304     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+3-07                sol[FAIL]  2.304     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+3-08                sol[FAIL]  2.304     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+3-09                sol[FAIL]  2.304     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+3-10                sol[FAIL]  2.305     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+4-01                sol[OK]    0.013     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+4-02                sol[OK]    0.014     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+4-03                sol[OK]    0.017     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+4-04                sol[OK]    0.016     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+4-05                sol[OK]    0.014     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+4-06                sol[OK]    0.016     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+4-07                sol[OK]    0.015     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+4-08                sol[OK]    0.018     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+4-09                sol[OK]    0.016     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+4-10                sol[FAIL]  2.304     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+4-11                sol[FAIL]  2.305     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+4-12                sol[FAIL]  2.304     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+4-13                sol[FAIL]  2.305     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+4-14                sol[FAIL]  2.305     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+4-15                sol[FAIL]  2.305     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+4-16                sol[FAIL]  2.305     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+4-17                sol[FAIL]  2.305     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+4-18                sol[FAIL]  2.305     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+4-19                sol[FAIL]  2.305     check[SKIP]      0  [Time Limit Exceeded]   solution terminated after hard time limit '2.3'
+4-20                sol[OK]    0.014     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+samples             [1/1 tests]    [Correct]             [0/0 pts]      [match with expected]             0-01
+sstpn               [5/5 tests]    [Correct]             [5/5 pts]      [match with expected]             1-01
+sstn                [5/5 tests]    [Correct]             [15/15 pts]    [match with expected]             2-01
+stn                 [10/10 tests]  [Time Limit Exceeded] [0/30 pts]     [expected: incorrect]             3-01
+tn                  [20/20 tests]  [Wrong Answer]        [0/50 pts]     [match with expected]             4-01
+
+Subtask summary
+20/100 pts
+
+Finished.
 
 task3.cpp
 solution            compile[OK]
-checker             compile[FAIL]
-exit-code: 2
-stdout:
-make: Entering directory '/__w/TTC20250928/TTC20250928/pA/checker'
-g++ -std=gnu++1y -Wall -Wextra -O2 checker.cpp -o checker.exe
-make: Leaving directory '/__w/TTC20250928/TTC20250928/pA/checker'
-stderr:
-checker.cpp: In function ‘int main(int, char**)’:
-checker.cpp:6:21: error: invalid conversion from ‘const char*’ to ‘int’ [-fpermissive]
-    6 |         registerGen("pA", argc, argv);
-      |                     ^~~~
-      |                     |
-      |                     const char*
-In file included from checker.cpp:2:
-testlib.h:4056:22: note:   initializing argument 1 of ‘void registerGen(int, char**, int)’
- 4056 | void registerGen(int argc, char* argv[], int randomGeneratorVersion)
-      |                  ~~~~^~~~
-checker.cpp:6:27: error: invalid conversion from ‘int’ to ‘char**’ [-fpermissive]
-    6 |         registerGen("pA", argc, argv);
-      |                           ^~~~
-      |                           |
-      |                           int
-testlib.h:4056:34: note:   initializing argument 2 of ‘void registerGen(int, char**, int)’
- 4056 | void registerGen(int argc, char* argv[], int randomGeneratorVersion)
-      |                            ~~~~~~^~~~~~
-checker.cpp:6:33: error: invalid conversion from ‘char**’ to ‘int’ [-fpermissive]
-    6 |         registerGen("pA", argc, argv);
-      |                                 ^~~~
-      |                                 |
-      |                                 char**
-testlib.h:4056:46: note:   initializing argument 3 of ‘void registerGen(int, char**, int)’
- 4056 | void registerGen(int argc, char* argv[], int randomGeneratorVersion)
-      |                                          ~~~~^~~~~~~~~~~~~~~~~~~~~~
-make: *** [Makefile:12: checker.exe] Error 1
+checker             compile[WARN]
+0-01                sol[OK]    0.012     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+1-01                sol[OK]    0.011     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+1-02                sol[OK]    0.013     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+1-03                sol[OK]    0.011     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+1-04                sol[OK]    0.012     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+1-05                sol[OK]    0.011     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+2-01                sol[OK]    0.011     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+2-02                sol[OK]    0.009     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+2-03                sol[OK]    0.009     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+2-04                sol[OK]    0.009     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+2-05                sol[OK]    0.008     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+3-01                sol[OK]    0.018     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+3-02                sol[OK]    0.019     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+3-03                sol[OK]    0.018     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+3-04                sol[OK]    0.022     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+3-05                sol[OK]    0.022     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+3-06                sol[OK]    0.025     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+3-07                sol[OK]    0.022     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+3-08                sol[OK]    0.020     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+3-09                sol[OK]    0.024     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+3-10                sol[OK]    0.020     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+4-01                sol[OK]    0.021     check[OK]        0  [Wrong Answer]          
+4-02                sol[OK]    0.021     check[OK]        0  [Wrong Answer]          
+4-03                sol[OK]    0.021     check[OK]        0  [Wrong Answer]          
+4-04                sol[OK]    0.023     check[OK]        0  [Wrong Answer]          
+4-05                sol[OK]    0.024     check[OK]        0  [Wrong Answer]          
+4-06                sol[OK]    0.023     check[OK]        0  [Wrong Answer]          
+4-07                sol[OK]    0.022     check[OK]        0  [Wrong Answer]          
+4-08                sol[OK]    0.022     check[OK]        0  [Wrong Answer]          
+4-09                sol[OK]    0.025     check[OK]        0  [Wrong Answer]          
+4-10                sol[OK]    0.016     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+4-11                sol[OK]    0.018     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+4-12                sol[OK]    0.018     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+4-13                sol[OK]    0.018     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+4-14                sol[OK]    0.014     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+4-15                sol[OK]    0.019     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+4-16                sol[OK]    0.017     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+4-17                sol[OK]    0.016     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+4-18                sol[OK]    0.017     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+4-19                sol[OK]    0.015     check[OK]        0  [Wrong Answer]          Unexpected character #10, but ' ' expected
+4-20                sol[OK]    0.023     check[OK]        0  [Wrong Answer]          
+samples             [1/1 tests]    [Wrong Answer]        [0/0 pts]      [expected: correct]               0-01
+sstpn               [5/5 tests]    [Wrong Answer]        [0/5 pts]      [expected: correct]               1-01
+sstn                [5/5 tests]    [Wrong Answer]        [0/15 pts]     [expected: correct]               2-01
+stn                 [10/10 tests]  [Wrong Answer]        [0/30 pts]     [expected: correct]               3-01
+tn                  [20/20 tests]  [Wrong Answer]        [0/50 pts]     [expected: time_limit]            4-01
+
+Subtask summary
+0/100 pts
+
+Finished.
 
