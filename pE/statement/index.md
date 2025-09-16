@@ -2,7 +2,7 @@
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=5in]{Gemini_Generated_Image_ad1m0aad1m0aad1m.png}
+\includegraphics[width=5in]{Gemini_Generated_Image_ad1m0aad1m0aad1m.jpg}
 \caption{寫滿算式的黑板}
 \end{figure}
 
