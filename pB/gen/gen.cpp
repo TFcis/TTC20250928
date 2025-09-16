@@ -15,7 +15,7 @@ int main(int argc, char* argv[]) {
 		int t = t_max;
 		cout << t << endl;
 		for(int i = 0; i < t; i++) {
-			int n = max_n;
+			int n = n_max;
 			cout << n << endl;
 			for (int j = 0; j < n; j++) {
 				int s = rnd.next(-s_max, s_max);

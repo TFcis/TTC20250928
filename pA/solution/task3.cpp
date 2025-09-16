@@ -6,6 +6,10 @@ void solve() {
     long long a, b;
     bool ne = 0;
     cin >> n;
+    if(n == 0) {
+    	cout << "1 1\n";
+	return;
+    }
     if( n < 0 ) {
         n = -n;
         ne = 1;
