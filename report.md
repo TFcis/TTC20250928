@@ -20,7 +20,7 @@
 | subtasks.json<br>global_validators |  [:white_check_mark:](pA/subtasks.json) | [:white_check_mark:](pB/subtasks.json) | [:white_check_mark:](pC/subtasks.json) | [:white_check_mark:](pD/subtasks.json) | [:white_check_mark:](pE/subtasks.json) | [:white_check_mark:](pF/subtasks.json) | [:white_check_mark:](pG/subtasks.json) | [:white_check_mark:](pH/subtasks.json) |
 | tests | [:white_check_mark:](pA/tests) | [:white_check_mark:](pB/tests) | [:x:](pC/tests)<br>[Auto build disabled](pC/gen/DISABLE_AUTO_BUILD) | [:white_check_mark:](pD/tests) | [:white_check_mark:](pE/tests) | [:x:](pF/tests)<br>[Auto build disabled](pF/gen/DISABLE_AUTO_BUILD) | [:x:](pG/tests)<br>[Auto build disabled](pG/gen/DISABLE_AUTO_BUILD) | [:x:](pH/tests)<br>[Auto build disabled](pH/gen/DISABLE_AUTO_BUILD) |
 | statement/index.md | [:white_check_mark:](pA/statement/index.md) | [:white_check_mark:](pB/statement/index.md) | [:x:](pC/statement/index.md) | [:white_check_mark:](pD/statement/index.md) | [:white_check_mark:](pE/statement/index.md) | [:x:](pF/statement/index.md) | [:x:](pG/statement/index.md) | [:x:](pH/statement/index.md) |
-| statement/index.pdf | [:white_check_mark:](pA/statement/index.pdf) | [:white_check_mark:](pB/statement/index.pdf) | [:x:](pC/statement/index.pdf)<br>[Auto build disabled](pC/statement/DISABLE_AUTO_BUILD) | [:white_check_mark:](pD/statement/index.pdf) | [:x:](pE/statement/index.pdf) | [:x:](pF/statement/index.pdf)<br>[Auto build disabled](pF/statement/DISABLE_AUTO_BUILD) | [:x:](pG/statement/index.pdf)<br>[Auto build disabled](pG/statement/DISABLE_AUTO_BUILD) | [:x:](pH/statement/index.pdf)<br>[Auto build disabled](pH/statement/DISABLE_AUTO_BUILD) |
+| statement/index.pdf | [:white_check_mark:](pA/statement/index.pdf) | [:white_check_mark:](pB/statement/index.pdf) | [:x:](pC/statement/index.pdf)<br>[Auto build disabled](pC/statement/DISABLE_AUTO_BUILD) | [:white_check_mark:](pD/statement/index.pdf) | [:white_check_mark:](pE/statement/index.pdf) | [:x:](pF/statement/index.pdf)<br>[Auto build disabled](pF/statement/DISABLE_AUTO_BUILD) | [:x:](pG/statement/index.pdf)<br>[Auto build disabled](pG/statement/DISABLE_AUTO_BUILD) | [:x:](pH/statement/index.pdf)<br>[Auto build disabled](pH/statement/DISABLE_AUTO_BUILD) |
 
 <!-- progress end -->
 
@@ -33,7 +33,7 @@
 | B | 25<br>$1 \le T \le 2 \cdots 10^4, 1 \le N \le 40$ | 15<br>$S_i = (-1)^{(i-1)}$ | 60<br>無額外限制 |
 | C | 100<br>無額外限制 |
 | D | 3<br>$0 \le A,\ B \le 10^9,\ 0 \le C \le 10^{18}$ | 8<br>$0 \le A,\ B \le 10^{18},\ 0 \le C \le 10^{36}$ | 17<br>$0 \le A,\ B \le 10^{100000},\ 0 \le C \le 10^{100000}$ | 32<br>$0 \le A,\ B \le 10^{1000},\ 0 \le C \le 10^{2000}$ | 40<br>無額外限制 |
-| E | 17<br> | 83<br>無額外限制 |
+| E | 17<br>$1 \le T \le 1 \cdots 10^2, 1 \le N \cdots M \le 2 \cdots 10^5$ | 83<br>無額外限制 |
 | F | 100<br>無額外限制 |
 | G | 100<br>無額外限制 |
 | H | 100<br>無額外限制 |
