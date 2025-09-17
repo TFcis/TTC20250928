@@ -33,7 +33,7 @@
 | B | 25<br>$1 \le T \le 2 \cdots 10^4, 1 \le N \le 40$ | 15<br>$S_i = (-1)^{(i-1)}$ | 60<br>無額外限制 |
 | C | 100<br>無額外限制 |
 | D | 3<br>$0 \le A,\ B \le 10^9,\ 0 \le C \le 10^{18}$ | 8<br>$0 \le A,\ B \le 10^{18},\ 0 \le C \le 10^{36}$ | 17<br>$0 \le A,\ B \le 10^{100000},\ 0 \le C \le 10^{100000}$ | 32<br>$0 \le A,\ B \le 10^{1000},\ 0 \le C \le 10^{2000}$ | 40<br>無額外限制 |
-| E | 17<br>$1 \le T \le 1 \cdots 10^2, 1 \le N \cdots M \le 2 \cdots 10^5$ | 83<br>無額外限制 |
+| E | 17<br>$1 \le T \le 1 \cdot 10^2, 1 \le N \cdot M \le 2 \cdot 10^5$ | 83<br>無額外限制 |
 | F | 100<br>無額外限制 |
 | G | 100<br>無額外限制 |
 | H | 100<br>無額外限制 |
