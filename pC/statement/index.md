@@ -2,7 +2,7 @@
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=5in]{Gemini_Generated_Image_tts5bztts5bztts5.png}
+\includegraphics[width=5in]{Gemini_Generated_Image_tts5bztts5bztts5.jpg}
 \caption{充滿bug的minecraft}
 \end{figure}
 
