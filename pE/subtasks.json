@@ -12,7 +12,7 @@
 	"stnm": {
 	    "index": 1,
 	    "score": 17,
-	    "text": "$1 \\le T \\le 1 \\cdots 10^2, 1 \\le N \\cdots M \\le 2 \\cdots 10^5$",
+	    "text": "$1 \\le T \\le 1 \\cdot 10^2, 1 \\le N \\cdot M \\le 2 \\cdot 10^5$",
 	    "validators": ["validator.cpp 100 200000 200000 200000"]
 	},
         "full": {
