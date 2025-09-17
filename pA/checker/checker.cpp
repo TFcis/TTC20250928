@@ -11,9 +11,9 @@ int main(int argc, char* argv[]) {
     for(int i = 0; i < t; i++) {
         long long n = inf.readLong();
         inf.readEoln();
-        long long a = ans.readLong();
+        long long a = ouf.readLong();
         if(a == -1) {
-            long long b = ouf.readLong();
+            long long b = ans.readLong();
             if(b != -1) {
                 ok = false;
                 break;
@@ -21,13 +21,13 @@ int main(int argc, char* argv[]) {
             ans.readEoln();
             ouf.readEoln();
         }else{
-            ans.readSpace();
-            long long a2 = ans.readLong();
-            ans.readEoln();
-            ouf.readLong();
             ouf.readSpace();
-            ouf.readLong();
+            long long a2 = ouf.readLong();
             ouf.readEoln();
+            ans.readLong();
+            ans.readSpace();
+            ans.readLong();
+            ans.readEoln();
             if((__int128_t) a * a - (__int128_t) a2 * a2 != (__int128_t) n) {
                 ok = false;
                 break;
