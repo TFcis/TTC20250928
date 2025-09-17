@@ -10,7 +10,7 @@ int main(int argc, char* argv[]) {
 	int len = inf.readInt();
 	inf.readEoln();
 	string anss = inf.readString();
-    	inf.readEoln();
+	if(anss.back() == '\n') anss.pop_back();
         if(n == -1) {
             int b = ouf.readInt();
             if(b != -1) {
