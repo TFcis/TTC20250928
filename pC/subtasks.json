@@ -1,6 +1,6 @@
 {
     "global_validators": [
-        "validator.cpp"
+        "validator.cpp 1000000 0"
     ],
     "subtasks": {
         "samples": {
@@ -9,11 +9,23 @@
             "text": "範例輸入輸出",
             "validators": []
         },
-        "full": {
+        "sn": {
             "index": 1,
-            "score": 100,
-            "text": "無額外限制",
-            "validators": []
-        }
+            "score": 10,
+            "text": "$2 \\le N \\le 4$",
+            "validators": ["validator.cpp 4 0"]
+        },
+	"zo": {
+	    "index": 2,
+	    "score": 5,
+	    "text": "相鄰兩位元必不相同",
+	    "validators": ["validator.cpp 1000000 1"]
+	},
+	"full": {
+	    "index": 3,
+	    "score": 85,
+	    "text": "無額外限制",
+	    "validators": []
+	}
     }
 }

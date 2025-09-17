@@ -1,5 +1,13 @@
 {
 	"correct.cpp": {
 		"verdict": "model_solution"
+	},
+	"task1.cpp": {
+		"verdict": "incorrect",
+		"except": {"sn": "correct"}
+	},
+	"task2.cpp": {
+		"verdict": "incorrect",
+		"except": {"zo": "correct"}
 	}
 }
