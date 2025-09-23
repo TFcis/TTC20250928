@@ -38,3 +38,5 @@
 5-09	 50	gen 500000 1000000 1 7 # only have mul
 5-10	 51	gen 500000 1000000 1 8 # only have mul
 5-11	 52	gen 500000 1000000 1 9 # only have mul
+5-12	 53	manual p-yes.in
+5-13	 54	manual p-no.in
