@@ -50,3 +50,5 @@ gen 500000 1000000 1 6 # only have mul
 gen 500000 1000000 1 7 # only have mul
 gen 500000 1000000 1 8 # only have mul
 gen 500000 1000000 1 9 # only have mul
+manual p-yes.in
+manual p-no.in
