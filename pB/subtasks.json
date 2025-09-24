@@ -1,6 +1,6 @@
 {
     "global_validators": [
-        "validator.cpp 100000 100 2000000 2000000"
+        "validator.cpp 100000 1000000 2000000 2000000"
     ],
     "subtasks": {
         "samples": {
@@ -12,14 +12,14 @@
 	"stn": {
 	    "index": 1,
 	    "score": 25,
-	    "text": "$1 \\le T \\le 2 \\cdots 10^4, 1 \\le N \\le 40$",
-	    "validators": ["validator.cpp 20000 40 800000 2000000"]
+	    "text": "$1 \\le T \\le 1000,\\ 1 \\le N \\le 500$",
+	    "validators": ["validator.cpp 1000 500 500000 2000000"]
 	},
 	"pn1": {
 	    "index": 2,
 	    "score": 15,
 	    "text": "$S_i = (-1)^{(i-1)}$",
-	    "validators": ["validator.cpp 100000 100 2000000 -1"]
+	    "validators": ["validator.cpp 100000 1000000 2000000 -1"]
 	},
         "full": {
             "index": 3,

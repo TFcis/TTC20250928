@@ -3,15 +3,17 @@ using namespace std;
 
 void solve() {
     int n;
-    cin >> n;
+    long long p;
+    cin >> n >> p;
     vector<long long> arr(n);
     for(auto& i:arr) cin >> i;
     for(int i = 0; i < n - 1; i++) {
         for(int j = 0; j < n - i - 1; j++) {
             arr[j] = arr[j] - arr[j+1];
+	    arr[j] %= p;
         }
     }
-    cout << arr[0] << '\n';
+    cout<<(arr[0]+p)%p<<'\n';
     return;
 }
 
