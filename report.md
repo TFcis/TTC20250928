@@ -12,7 +12,7 @@
 | name |  [:white_check_mark:](pA/problem.json)<br>TTC04_perfect_wallet | [:white_check_mark:](pB/problem.json)<br>TTC04_super_acceleration | [:white_check_mark:](pC/problem.json)<br>TTC04_great_bug | [:white_check_mark:](pD/problem.json)<br>TTC04_grade_exam | [:white_check_mark:](pE/problem.json)<br>TTC04_hate_gcd |
 | title |  [:white_check_mark:](pA/problem.json)<br>完美錢包 | [:white_check_mark:](pB/problem.json)<br>超級加速度 | [:white_check_mark:](pC/problem.json)<br>這一定是特性 | [:white_check_mark:](pD/problem.json)<br>老師改考卷 | [:white_check_mark:](pE/problem.json)<br>I Hateth Thee, Master of GCD |
 | memory_limit |  256 | 256 | 256 | 256 | 512 |
-| time_limit |  0.3 | 0.5 | 0.5 | 1.0 | 2.0 |
+| time_limit |  0.3 | 2.0 | 0.5 | 1.0 | 2.0 |
 | has_checker |  True | False | True | False | False |
 | gen | [:x:](pA/gen)<br>[data](pA/gen/data) | [:x:](pB/gen)<br>[data](pB/gen/data) | [:white_check_mark:](pC/gen) | [:x:](pD/gen)<br>[data](pD/gen/data) | [:white_check_mark:](pE/gen) |
 | solution | [:white_check_mark:](pA/solution) | [:white_check_mark:](pB/solution) | [:white_check_mark:](pC/solution) | [:white_check_mark:](pD/solution) | [:white_check_mark:](pE/solution) |
@@ -30,7 +30,7 @@
 | | 1 | 2 | 3 | 4 | 5 |
 | --- | --- | --- | --- | --- | --- |
 | A | 5<br>$1 \le T \le 100, 0 \le N \le 1*10^3$ | 15<br>$1 \le T \le 100, 0 \le |N| \le 1*10^3$ | 30<br>$1 \le T \le 1*10^3, 0 \le |N| \le 1*10^8$ | 50<br>無額外限制 |
-| B | 25<br>$1 \le T \le 2 \cdots 10^4, 1 \le N \le 40$ | 15<br>$S_i = (-1)^{(i-1)}$ | 60<br>無額外限制 |
+| B | 25<br>$1 \le T \le 1000,\ 1 \le N \le 500$ | 15<br>$S_i = (-1)^{(i-1)}$ | 60<br>無額外限制 |
 | C | 10<br>$2 \le N \le 4$ | 5<br>相鄰兩位元必不相同 | 85<br>無額外限制 |
 | D | 3<br>$0 \le A,\ B \le 10^9,\ 0 \le C \le 10^{18}$ | 8<br>$0 \le A,\ B \le 10^{18},\ 0 \le C \le 10^{36}$ | 17<br>$0 \le A,\ B \le 10^{100000},\ 0 \le C \le 10^{100000},\ op \in \{+,\ -\}$ | 32<br>$0 \le A,\ B \le 10^{1000},\ 0 \le C \le 10^{2000}$ | 40<br>無額外限制 |
 | E | 17<br>$1 \le T \le 1 \cdot 10^2, 1 \le N \cdot M \le 2 \cdot 10^5$ | 83<br>無額外限制 |
