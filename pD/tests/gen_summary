@@ -1,42 +1,47 @@
 # test_name gen_line_number gen_line_content
 0-01	  4	manual example-1.in
-1-01	  7	gen 9 18 1 1 # only have mul
-1-02	  8	gen 9 18 1 2 # only have mul
-1-03	  9	gen 9 18 7 3
-1-04	 10	gen 9 18 7 4
-1-05	 11	gen 9 18 7 5
-2-01	 14	manual 1-yes.in
-2-02	 15	manual 1-no.in
-2-03	 16	gen 18 36 1 1 # only have mul
-2-04	 17	gen 18 36 1 2 # only have mul
-2-05	 18	gen 18 36 1 3 # only have mul
-2-06	 19	gen 18 36 1 4 # only have mul
-2-07	 20	gen 18 36 1 5 # only have mul
-2-08	 21	gen 18 36 7 6
-2-09	 22	gen 18 36 7 7
-2-10	 23	gen 18 36 7 8
-3-01	 26	gen 100000 100000 6 1
-3-02	 27	gen 100000 100000 6 2
-3-03	 28	gen 100000 100000 6 3
-3-04	 29	gen 100000 100000 6 4
-3-05	 30	gen 100000 100000 6 5
-4-01	 33	gen 1000 2000 7 1
-4-02	 34	gen 1000 2000 7 2
-4-03	 35	gen 1000 2000 7 3
-4-04	 36	gen 1000 2000 7 4
-4-05	 37	gen 1000 2000 7 5
-4-06	 38	gen 1000 2000 1 6 # only have mul
-4-07	 39	gen 1000 2000 1 7 # only have mul
-5-01	 42	manual 7-yes.in
-5-02	 43	manual 7-no.in
-5-03	 44	gen 500000 1000000 7 1
-5-04	 45	gen 500000 1000000 7 2
-5-05	 46	gen 500000 1000000 7 3
-5-06	 47	gen 500000 1000000 7 4
-5-07	 48	gen 500000 1000000 7 5
-5-08	 49	gen 500000 1000000 1 6 # only have mul
-5-09	 50	gen 500000 1000000 1 7 # only have mul
-5-10	 51	gen 500000 1000000 1 8 # only have mul
-5-11	 52	gen 500000 1000000 1 9 # only have mul
-5-12	 53	manual p-yes.in
-5-13	 54	manual p-no.in
+1-01	  7	manual 8-no.in
+1-02	  8	gen 9 18 1 1 # only have mul
+1-03	  9	gen 9 18 1 2 # only have mul
+1-04	 10	gen 9 18 7 3
+1-05	 11	gen 9 18 7 4
+1-06	 12	gen 9 18 7 5
+2-01	 15	manual 8-no.in
+2-02	 16	manual 1-yes.in
+2-03	 17	manual 1-no.in
+2-04	 18	gen 18 36 1 1 # only have mul
+2-05	 19	gen 18 36 1 2 # only have mul
+2-06	 20	gen 18 36 1 3 # only have mul
+2-07	 21	gen 18 36 1 4 # only have mul
+2-08	 22	gen 18 36 1 5 # only have mul
+2-09	 23	gen 18 36 7 6
+2-10	 24	gen 18 36 7 7
+2-11	 25	gen 18 36 7 8
+3-01	 28	gen 100000 100000 6 1
+3-02	 29	gen 100000 100000 6 2
+3-03	 30	gen 100000 100000 6 3
+3-04	 31	gen 100000 100000 6 4
+3-05	 32	gen 100000 100000 6 5
+4-01	 35	manual 8-no.in
+4-02	 36	gen 1000 2000 7 1
+4-03	 37	gen 1000 2000 7 2
+4-04	 38	gen 1000 2000 7 3
+4-05	 39	gen 1000 2000 7 4
+4-06	 40	gen 1000 2000 7 5
+4-07	 41	gen 1000 2000 1 6 # only have mul
+4-08	 42	gen 1000 2000 1 7 # only have mul
+5-01	 45	manual 7-yes.in
+5-02	 46	manual 7-no.in
+5-03	 47	gen 500000 1000000 7 1
+5-04	 48	gen 500000 1000000 7 2
+5-05	 49	gen 500000 1000000 7 3
+5-06	 50	gen 500000 1000000 7 4
+5-07	 51	gen 500000 1000000 7 5
+5-08	 52	gen 500000 1000000 1 6 # only have mul
+5-09	 53	gen 500000 1000000 1 7 # only have mul
+5-10	 54	gen 500000 1000000 1 8 # only have mul
+5-11	 55	gen 500000 1000000 1 9 # only have mul
+5-12	 56	manual p-yes.in
+5-13	 57	manual p-no.in
+5-14	 58	manual p2-no.in
+5-15	 59	manual 8-no.in
