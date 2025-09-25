@@ -12,7 +12,11 @@
         "verdict": "correct"
     },
     "wonderhoi-bullshit-1.cpp": {
-        "verdict": "incorrect"
+        "verdict": "incorrect",
+        "except": {
+            "samples": "correct",
+            "task3": "correct"
+        }
     },
     "py.py": {
         "verdict": "correct",
