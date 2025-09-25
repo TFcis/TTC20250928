@@ -164,7 +164,7 @@ constexpr i64 prime64(int pool_idx) {
     u64 p = 0;
     do {
         p = rnd_pools[pool_idx++] | 1ull;
-   	} while(check64(p));
+   	} while(!check64(p));
 	return static_cast<i64>(p);
 }
 
