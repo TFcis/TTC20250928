@@ -72,7 +72,7 @@ int main(int argc, char* argv[]) {
 	while(true) {
 		int n = rnd.next(1,n_max);
 		n_sum += n;
-		if(n_sum > sigma_n_max || t > t_max) break;
+		if(n_sum >= sigma_n_max || t >= t_max) break;
 		t++;
 		ns.push_back(n);
 	}
