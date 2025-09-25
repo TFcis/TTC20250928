@@ -13,7 +13,7 @@ void solve() {
 	    arr[j] %= p;
         }
     }
-    cout<<(arr[0]+p)%p<<'\n';
+    cout<<(arr[0]%p+p)%p<<'\n';
     return;
 }
 
