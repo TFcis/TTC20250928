@@ -11,12 +11,13 @@ int main(int argc, char* argv[]) {
 	int upper_sum_n = atoi(argv[3]);
 	int upper_s = atoi(argv[4]);
 	int t = inf.readInt(1, upper_t, "t");
-	int p = inf.readInt(1, 2000000000,"p");
 	inf.readEoln();
 	if(upper_s == -1) {
 		for(int i = 0; i < t; i++) {
 			int sum_n = 0;
 			int n = inf.readInt(1, upper_n, "n");
+			inf.readSpace();
+			int p = inf.readInt(1, 2000000000, "p");
 			sum_n += n;
 			inf.readEoln();
 			ensure(1 <= sum_n && sum_n <= upper_sum_n);
@@ -31,6 +32,8 @@ int main(int argc, char* argv[]) {
 		for(int i = 0; i < t; i++) {
 			int sum_n = 0;
 			int n = inf.readInt(1, upper_n, "n");
+			inf.readSpace();
+			int p = inf.readInt(1, 2000000000, "p");
 			sum_n += n;
 			ensure(1 <= sum_n && sum_n <= upper_sum_n);
 			inf.readEoln();
