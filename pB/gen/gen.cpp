@@ -53,7 +53,7 @@ i64 prime64(){
     	return true;
     };
     do p = dist(gen)|1ull;
-   	while(check64(p));
+   	while(!check64(p));
 	return p;
 }
 
