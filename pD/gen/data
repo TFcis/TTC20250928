@@ -4,6 +4,7 @@
 manual example-1.in
 
 @subtask task1
+manual 8-no.in
 gen 9 18 1 1 # only have mul
 gen 9 18 1 2 # only have mul
 gen 9 18 7 3
@@ -11,6 +12,7 @@ gen 9 18 7 4
 gen 9 18 7 5
 
 @subtask task2
+manual 8-no.in
 manual 1-yes.in
 manual 1-no.in
 gen 18 36 1 1 # only have mul
@@ -30,6 +32,7 @@ gen 100000 100000 6 4
 gen 100000 100000 6 5
 
 @subtask task4
+manual 8-no.in
 gen 1000 2000 7 1
 gen 1000 2000 7 2
 gen 1000 2000 7 3
@@ -52,3 +55,5 @@ gen 500000 1000000 1 8 # only have mul
 gen 500000 1000000 1 9 # only have mul
 manual p-yes.in
 manual p-no.in
+manual p2-no.in
+manual 8-no.in
