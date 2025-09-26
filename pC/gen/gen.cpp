@@ -11,17 +11,41 @@ int main(int argc, char* argv[]) {
 	int num = atoi(argv[3]);
 	bool diff = atoi(argv[4]);
 	
-	if(max_n == 2) {
-		cout << 2 << '\n';
-		cout << bitset<2>(num) << '\n';
-	}else if(max_n == 3) {
-		cout << 3 << '\n';
-		cout << bitset<3>(num) << '\n';
-	}else if(max_n == 4) {
-		cout << 4 << '\n';
-		cout << bitset<4>(num) << '\n';
+	if(max_n == 16) {
+		if(num==1) {
+			cout << (1<<15) <<'\n';
+			for(int i = 0; i < (1<<15); i++) {
+				cout << max_n << '\n';
+				for(int j = 0; j < max_n; j++) {
+					if((i>>j)&1) cout<<1;
+					else cout<<0;
+				}
+				cout<<'\n';
+			}
+		}else{
+			cout << (1<<15) << '\n';
+			for(int i = (1<<15); i < (1<<16); i++) {
+				cout << max_n << '\n';
+				for(int j=0;j<max_n;j++) {
+					if((i>>j)&1) cout<<1;
+					else cout<<0;
+				}
+				cout<<'\n';
+			}
+		}
+	}else if(max_n <= 15) {
+		cout << (1<<max_n) << '\n';
+		for(int i = 0; i < (1<<max_n); i++) {
+			cout<<max_n<<'\n';
+			for(int j = 0; j < max_n; j++) {
+				if((i>>j)&1) cout<<1;
+				else cout<<0;
+			}
+			cout<<'\n';
+		}
 	}else if(no) {
-		int n = rnd.next(2, max_n);
+		cout<<1<<'\n';
+		int n = rnd.next(max_n/2, max_n);
 		n = min( n / 3 * 3 + 2, 999998);
 		cout << n << '\n';
 		for(int i = 0; i < n; i++) {
@@ -30,7 +54,8 @@ int main(int argc, char* argv[]) {
 		}
 		cout << '\n';
 	}else if(diff) {
-		int n = rnd.next(2, max_n);
+		cout<<1<<'\n';
+		int n = rnd.next(max_n/2, max_n);
 		cout << n << '\n';
 		int fir = rnd.next(0, 1);
 		for(int i = 0; i < n; i++) {
@@ -39,7 +64,8 @@ int main(int argc, char* argv[]) {
 		}
 		cout << '\n';
 	}else {
-		int n = rnd.next(2, max_n);
+		cout << 1 <<'\n';
+		int n = rnd.next(max_n/2, max_n);
 		cout << n << '\n';
 		for(int i = 0; i < n; i++) {
 			cout << rnd.next(0, 1);
