@@ -12,7 +12,7 @@
 | name |  [:white_check_mark:](pA/problem.json)<br>TTC04_perfect_wallet | [:white_check_mark:](pB/problem.json)<br>TTC04_super_acceleration | [:white_check_mark:](pC/problem.json)<br>TTC04_great_bug | [:white_check_mark:](pD/problem.json)<br>TTC04_grade_exam | [:white_check_mark:](pE/problem.json)<br>TTC04_hate_gcd |
 | title |  [:white_check_mark:](pA/problem.json)<br>完美錢包 | [:white_check_mark:](pB/problem.json)<br>超級加速度 | [:white_check_mark:](pC/problem.json)<br>這一定是特性 | [:white_check_mark:](pD/problem.json)<br>老師改考卷 | [:white_check_mark:](pE/problem.json)<br>I Hateth Thee, Master of GCD |
 | memory_limit |  256 | 256 | 256 | 256 | 512 |
-| time_limit |  0.3 | 2.0 | 0.5 | 1.0 | 2.0 |
+| time_limit |  0.3 | 3.0 | 0.5 | 1.0 | 2.0 |
 | has_checker |  True | False | True | False | False |
 | gen | [:x:](pA/gen)<br>[data](pA/gen/data) | [:x:](pB/gen)<br>[data](pB/gen/data) | [:white_check_mark:](pC/gen) | [:x:](pD/gen)<br>[data](pD/gen/data) | [:white_check_mark:](pE/gen) |
 | solution | [:white_check_mark:](pA/solution) | [:white_check_mark:](pB/solution) | [:white_check_mark:](pC/solution) | [:white_check_mark:](pD/solution) | [:white_check_mark:](pE/solution) |
