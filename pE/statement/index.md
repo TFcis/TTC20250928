@@ -47,7 +47,7 @@ Wilt thou succour him?
 
 一開始給一數 $T$ 代表接下來有 $T$ 行
 
-接下來每一行有一個數字 $N$
+接下來每一行有兩個數字 $n,\ m$
 
 求 $\sum\limits_{i\ =\ 1}^n{\sum\limits_{j\ =\ 1}^m{\varphi (gcd(i,j))}}$
 
